@@ -17,7 +17,7 @@ namespace Badetidssystemet
 
         public override string ToString()
         {
-            return "Hej " + navn;
+            return $"ID: {id} navn: {navn} adresse: {adresse}";
         }
     }
 }

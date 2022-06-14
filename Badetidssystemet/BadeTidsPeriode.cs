@@ -31,6 +31,7 @@ namespace Badetidssystemet
 
         public override string ToString()
         {
+            
             return "Start tidspunktet for begivenheden er " + StartTidspunktet.TimeOfDay + " og begivenheden slutter er " + SlutTidspunktet.TimeOfDay;
         }
 

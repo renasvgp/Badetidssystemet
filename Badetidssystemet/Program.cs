@@ -8,7 +8,7 @@ namespace Badetidssystemet
         static void Main(string[] args)
         {
 
-            Kreds kreds = new Kreds("1", "Karen", "Strandvejen 2");
+            Kreds kreds1 = new Kreds("1", "Karen", "Strandvejen 2");
 
             
             BadeTidsPeriode badetidsperiode = new BadeTidsPeriode("Morgern Dukkert",
@@ -16,7 +16,7 @@ namespace Badetidssystemet
                                                   new DateTime().AddHours(6).AddMinutes(30),
                                                   new DateTime().AddHours(8).AddMinutes(30));
 
-            Console.WriteLine(kreds);
+            Console.WriteLine(kreds1);
             Console.WriteLine(badetidsperiode);
 
         }
